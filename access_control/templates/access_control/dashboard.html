@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <ul>
+        <li><a href="{% url 'user_list' %}">Manage Users</a></li>
+        <li><a href="{% url 'application_list' %}">Manage Applications</a></li>
+        <li><a href="{% url 'role_list' %}">Manage Roles</a></li>
+        <li><a href="{% url 'permission_list' %}">Manage Permissions</a></li>
+    </ul>
+</body>
+</html>
